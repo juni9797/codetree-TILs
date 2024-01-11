@@ -10,4 +10,4 @@ for i in range(0, 10):
         three_list.append(num_list[i])
 
 print(sum(even_list), end = ' ')
-print(sum(three_list)/len(three_list))
+print(round(sum(three_list)/len(three_list),1))
